@@ -1,0 +1,271 @@
+*** Targets ***
+
+probe = TCPPing
+
+menu = Top
+title = Network Latency Grapher
+remark = Welcome to the SmokePing website of WORKS Company. \
+         Here you will learn all about the latency of our network.
+
+
++ Europe
+
+menu = Europe
+title = European Connectivity
+
+++ Germany
+
+menu = Germany
+title = The Fatherland
+
++++ AS24940
+menu = AS24940
+title = AS24940 (Hetzner Online GmbH)
+
+++++ HetznerCore23
+menu = Hetzner Core 23
+title = Hetzner Core 23 (core23.fsn1.hetzner.com)
+host = 213.239.229.57
+
+++++ HetznerCore24
+menu = Hetzner Core 24
+title = Hetzner Core 24 (core24.fsn1.hetzner.com)
+host = 213.239.229.61
+
++++ AS200249
+menu = AS200249
+title = AS200249 (ProductsUp)
+
+++++ PUP-CR1
+menu = PUP-CR1
+title = CR1 (vif1201.leaf1.network.productsup.net)
+host = 185.252.140.125
+port = 22
+
+++++ PUP-CR2
+menu = PUP-CR2
+title = CR1 (vif1201.leaf2.network.productsup.net)
+host = 185.252.140.126
+port = 22
+
+++++ PUP-LB1-DC4
+menu = PUP-LB1-DC4
+title = LB1 (lb-ext-dc4.network.productsup.net)
+host = 185.252.140.130
+
+++++ PUP-LB2-DC16
+menu = PUP-LB2-DC16
+title = LB2 (lb-ext-dc16.network.productsup.net)
+host = 185.252.140.131
+
+++++ PUP-LIFT-R2-1
+menu = PUP-LIFT-R2-1
+title = PUP-LIFT-R2-1
+host = 168.119.148.62
+port = 80
+
+++++ PUP-LIFT-R2-2
+menu = PUP-LIFT-R2-2
+title = PUP-LIFT-R2-2
+host = 168.119.148.61
+port = 80
+
+++++ PUP-LIFT-R2-3
+menu = PUP-LIFT-R2-3
+title = PUP-LIFT-R2-3
+host = 168.119.148.60
+port = 80
+
+++++ PUP-LIFT-R2-4
+menu = PUP-LIFT-R2-4
+title = PUP-LIFT-R2-4
+host = 168.119.148.59
+port = 80
+
+++++ PUP-LIFT-R2-5
+menu = PUP-LIFT-R2-4
+title = PUP-LIFT-R2-5
+host = 168.119.148.58
+port = 80
+
+++++ PUP-LIFT-R2-6
+menu = PUP-LIFT-R2-6
+title = PUP-LIFT-R2-6
+host = 23.88.17.168
+port = 80
+
+++ Netherlands
+menu = Netherlands
+title = Bicycle Kingdom
+
++++ AS20857
+menu = AS20857
+title = AS20857 (Transip)
+
+++++ TransipAMS1
+menu = Transip AMS1
+title = Transip AMS1 (e1-a8.r2.ams0.transip.net)
+host = 157.97.168.5
+
+++++ TransipAMS2
+menu = Transip AMS2
+title = Transip AMS2 (r2.s2.t2.ams0.transip.net)
+host = 37.97.252.135
+
+++++ TransipAMS3
+menu = Transip AMS3
+title = Transip AMS3 (s2.l3.t2.ams0.transip.net)
+host = 37.97.252.69
+
++++ AS13335
+menu = AS13335
+title = AS13335 (Cloudflare)
+
+++++ CloudflareAMS1
+menu = Cloudflare AMS1
+title = Cloudflare AMS1 (172.70.44.2)
+host = 172.70.44.2
+
++++ AS54113
+menu = AS54113
+title = AS54113 (Fastly)
+
+++++ FastlyAMS1
+menu = Fastly AMS1
+title = Fastly AMS1 (151.101.131.5)
+host = 151.101.131.5
+
+++++ FastlyAMS2
+menu = Fastly AMS2
+title = Fastly AMS2 (151.101.0.81)
+host = 151.101.0.81
+
++ DNS
+menu = DNS
+title = DNS
+
+++ GoogleDNS1 
+menu = Google DNS 1
+title = Google DNS 8.8.8.8
+host = 8.8.8.8
+port = 53
+
+++ GoogleDNS2
+menu = Google DNS 2
+title = Google DNS 8.8.4.4
+host = 8.8.4.4
+port = 53
+
+++ OpenDNS1
+menu = OpenDNS1
+title = OpenDNS1
+host = 208.67.222.222
+port = 53
+
+++ OpenDNS2
+menu = OpenDNS2
+title = OpenDNS2
+host = 208.67.220.220
+port = 53
+
+++ CloudflareDNS1
+menu = Cloudflare DNS 1
+title = Cloudflare DNS 1.1.1.1
+host = 1.1.1.1
+port = 53
+
+++ CloudflareDNS2
+menu = Cloudflare DNS 2
+title = Cloudflare DNS 1.0.0.1
+host = 1.0.0.1
+port = 53
+
+++ L3-1
+menu = Level3 DNS 1
+title = Level3 DNS 4.2.2.1
+host = 4.2.2.1
+port = 53
+
+++ L3-2
+menu = Level3 DNS 2
+title = Level3 DNS 4.2.2.2
+host = 4.2.2.2
+port = 53
+
+++ Quad9
+menu = Quad9
+title = Quad9 DNS 9.9.9.9
+host = 9.9.9.9
+port = 53
+
++ DNSProbes
+menu = DNS Probes
+title = DNS Probes
+probe = DNS
+
+++ GoogleDNS1
+menu = Google DNS 1
+title = Google DNS 8.8.8.8
+host = 8.8.8.8
+
+++ GoogleDNS2
+menu = Google DNS 2
+title = Google DNS 8.8.4.4
+host = 8.8.4.4
+
+++ OpenDNS1
+menu = OpenDNS1
+title = OpenDNS1
+host = 208.67.222.222
+
+++ OpenDNS2
+menu = OpenDNS2
+title = OpenDNS2
+host = 208.67.220.220
+
+++ CloudflareDNS1
+menu = Cloudflare DNS 1
+title = Cloudflare DNS 1.1.1.1
+host = 1.1.1.1
+
+++ CloudflareDNS2
+menu = Cloudflare DNS 2
+title = Cloudflare DNS 1.0.0.1
+host = 1.0.0.1
+
+++ L3-1
+menu = Level3 DNS 1
+title = Level3 DNS 4.2.2.1
+host = 4.2.2.1
+
+++ L3-2
+menu = Level3 DNS 2
+title = Level3 DNS 4.2.2.2
+host = 4.2.2.2
+
+++ Quad9
+menu = Quad9
+title = Quad9 DNS 9.9.9.9
+host = 9.9.9.9
+
+++ Productsup1
+menu = Productsup1
+title = Productsup DNS 185.252.140.2
+host = 185.252.140.2
+lookup = ns-r1-1.productsup.int
+
+++ Productsup3
+menu = Productsup3
+title = Productsup DNS 185.252.140.5
+host = 185.252.140.5
+lookup = ns-r1-1.productsup.int
+
++ ICMP 
+menu = ICMP
+title = ICMP
+probe = FPing
+
+++ Router
+menu = Router
+title = Router
+host = 10.27.0.1
