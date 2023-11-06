@@ -25,8 +25,8 @@ RUN /bin/bash /tmp/lighttpd-smokeping-config.sh
 
 # Prepare directories for mounting and set permissions
 RUN mkdir /var/run/smokeping && \
-    ln -s /var/cache/smokeping/ /var/www/smokeping/cache && \
-    ln -s /var/www/smokeping/js/prototype/prototype.js /var/www/smokeping/js/prototype.js && \
+    #ln -s /var/cache/smokeping/ /var/www/smokeping/cache && \
+    #ln -s /var/www/smokeping/js/prototype/prototype.js /var/www/smokeping/js/prototype.js && \
     ln -s /usr/share/smokeping/www /var/www/smokeping && \
     ln -s /usr/lib/cgi-bin /var/www/ && \
     ln -s /usr/lib/cgi-bin/smokeping.cgi /var/www/smokeping/ && \
